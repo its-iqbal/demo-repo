@@ -13,7 +13,8 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-lfreeglut",
                 "-lglu32",
-                "-lopengl32"
+                "-lopengl32",
+                "-lwinmm"
             ],
             "options": {
                 "cwd": "C:\\msys64\\ucrt64\\bin"
